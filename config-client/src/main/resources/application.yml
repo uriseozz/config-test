@@ -9,6 +9,7 @@ spring:
   config:
     import: optional:configserver:http://localhost:9900 # config server
 
+# actuator는 애플리케이션의 상태를 조회하고, 변경할 수 있도록 기능을 추상화하여 정의
 management: #actuator
   endpoints:
     web:
