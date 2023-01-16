@@ -10,5 +10,5 @@ spring:
       server:
         git:
           uri: https://github.com/uriseozz/config-setting.git # git repo 주소
-          #default-label: main
+          default-label: main
           search-paths: eureka-server # 마이크로서비스 이름
